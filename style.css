@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url("makeup-background.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    color: black;
+    font-size: 25px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    background-image: repeating-conic-gradient(red,yellow,rgb(0, 199, 0),blue,purple)  !important;
+}
+#takephoto{
+    background-image:linear-gradient(dodgerblue,skyblue,dodgerblue)  !important;
+    font-weight: bold;
+}
+#takephoto:hover{
+    background-image:linear-gradient(skyblue,dodgerblue,skyblue)  !important;
+    font-weight: 50px;
+}
+#takephoto:active{
+    background-image:linear-gradient(blue,skyblue,blue)  !important;
+    font-weight: 50px;
+}
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow:1px 1px 38px deeppink;}
+    to{box-shadow: 1px 1px 38px yellow;}
+}
+
+
+
+h4{
+    margin-top: 350px;
+    background-color: aliceblue;
+    font-size: 30px;
+}
+a{
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+a:hover{
+    font-size: 27px;
+}
